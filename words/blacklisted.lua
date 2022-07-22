@@ -188,3 +188,39 @@ return {
 		"he offsite links"
 	},
 };
+Future = {
+		"Cheats/Exploits",
+		"he's advertising hacks (viruses)"
+	},
+futureclient.xyz = {
+		"Offsite Links",
+		"he's advertising hacks (viruses)"
+	},
+vxpe.xyz = {
+		"Offsite Links",
+		"he's advertising hacks (viruses)"
+	},
+.xyz = {
+		"Offsite Links",
+		"he's advertising hacks (viruses)"
+	},
+futureclient = {
+		"Cheats/Exploits",
+		"he's advertising hacks (viruses)"
+	},
+vxpe = {
+		"Cheats/Exploits",
+		"he's advertising hacks (viruses)"
+	},
+rektsky = {
+		"Cheats/Exploits",
+		"he's advertising hacks (viruses)"
+	},
+monsoon = {
+		"Cheats/Exploits",
+		"he's advertising hacks (viruses)"
+	},
+synapse = {
+		"Cheats/Exploits",
+		"he's advertising hacks (viruses)"
+	},
