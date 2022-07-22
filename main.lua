@@ -1,11 +1,3 @@
---[[
-
-	This property is protected.
-	You are not allowed to claim this as your own.
-	Removal of advertisements of https://www.discord.gg/outliershub is prohibited.
-	Removal of initial credits to the authors is prohibited.
-
-]]
 
 if setfflag then
 	setfflag("AbuseReportScreenshotPercentage", 0)
@@ -17,7 +9,7 @@ repeat task.wait() until game:IsLoaded()
 local Default = {
 	Advertise = true;
 	Safe = false;
-	Webhook = ""; -- Webhook URL
+	Webhook = ""; -- Discord Webhook URL
 	
 	Words = {
 	    Blacklist = "https://raw.githubusercontent.com/CF-Trail/Auto-Report/main/words/blacklisted.lua";
@@ -214,7 +206,7 @@ end)();
 pcall(function()
     autoreport.library:MakeNotification({
 	    Name = "Loaded!",
-	    Content = "Script was made by .gg#1780 and snnwer#1349",
+	    Content = "Auto Report Enabled!",
 	    Time = 8
     });
 
@@ -225,8 +217,8 @@ pcall(function()
     });
 
     autoreport.library:MakeNotification({
-	    Name = "Join the creators' discord",
-	    Content = "discord.gg/outliershub",
+	    Name = "Don't Join the creators' discord",
+	    Content = "discord.gg/engo",
 	    Time = 8
     });
 end)
