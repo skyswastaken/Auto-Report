@@ -16,7 +16,7 @@ local Default = {
 	    Whitelist = "https://raw.githubusercontent.com/CF-Trail/Auto-Report/main/words/whitelisted.lua";
 	};
 	
-	ReportFriends = false;
+	ReportFriends = true;
 }
 
 -- sorry for the executed check t hing taking 7 commits or sum
@@ -81,7 +81,7 @@ local success, error_message = pcall(function()
 				{
 					["embeds"] = {{
 						["title"] = "**" .. game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name .. "**",
-						["description"] = "Auto-reported a player",
+						["description"] = "Reported a player",
 						["type"] = "rich",
 						["color"] = tonumber(0x00aff4),
 						["url"] = "https://www.roblox.com/games/" .. game.PlaceId,
@@ -103,7 +103,7 @@ local success, error_message = pcall(function()
 							}
 						},
 						["footer"] = {
-							["text"] = "\nIf you think this is a mistake, contact snnwer#1349 or .gg#1780"
+							["text"] = "werid af AR"
 						},
 						["author"] = {
 							["name"] = "Auto Report"
